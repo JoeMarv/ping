@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root {
+    --clr-primary-blue: hsl(223, 87%, 63%);
+    --clr-secondary-pale-blue: hsl(223, 100%, 88%);
+    --clr-secondary-light-red: hsl(354, 100%, 66%);
+    --clr-neutral-gray: hsl(0, 0%, 59%);
+    --clr-neutral-very-dark-blue: hsl(209, 33%, 12%);
+    --ff: 'Libre Franklin', sans-serif;
+}
+
+body {
+    font-size: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--ff);
+    align-items: center;
+    margin: 0vw
+}
+
+h3 {
+    font-weight: 300;
+    color: var(--clr-neutral-gray);
+}
+
+h4 {
+    font-weight: 300;
+    color: var(--clr-neutral-very-dark-blue);
+    font-size: 0.7em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 92vw;
+    margin: 16vw 0vw 8vw 0vw;
+    padding: 4vw;
+    text-align: center;
+}
+
+.logo {
+    width: 16vw;
+    height: auto;
+}
+
+.soon {
+    font-weight: 700;
+    color: var(--clr-neutral-very-dark-blue);
+}
+
+.form {
+    margin: 2vw 0vw;
+}
+
+.email {
+    padding: 3vw 3vw 3vw 8vw;
+    border: 1px solid var(--clr-secondary-pale-blue);
+    border-radius: 6vw;
+    width: 59vw
+}
+
+::placeholder {
+    color: var(--clr-neutral-gray);
+    opacity: 0.7;
+    font-family: var(--ff);
+}
+
+.notify {
+    margin: 3vw 0vw;
+    padding: 3vw;
+    border-radius: 6vw;
+    border: none;
+    width: 70vw;
+    color: white;
+    font-weight: 600;
+    background-color: var(--clr-primary-blue);
+    box-shadow: 0vw 2vw 4vw rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    margin: 16vw 0vw
+}
+
+.img {
+    width: 80vw;
+    height: auto;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-primary-blue);
+}
+
+.social {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    padding: 2vw 2vw 0.5vw 2vw;
+    margin: 0vw 3vw;
+}
+
+.copyrights {
+    font-size: 0.6em;
+    color: var(--clr-neutral-gray);
+    margin: 8vw 0vw 0vw 0vw
+}
