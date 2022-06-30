@@ -19,7 +19,11 @@
     </div>
 
     <form class="form">
-      <input type="email" name="email" class="email" placeholder="Your email address..."> <br>
+      <div class="input">
+        <input type="email" name="email" class="email" placeholder="Your email address..."> <br>
+        <span class="error-text"></span>
+      </div>
+      
 
       <button class="notify">
         <span>Notify Me</span>
@@ -32,9 +36,9 @@
 
     <div class="details">
       <div class="socials">
-        <div class="social"><span><ion-icon name="logo-facebook"></ion-icon></div></span>
-        <div class="social"><span><ion-icon name="logo-twitter"></ion-icon></div></span>
-        <div class="social"><span><ion-icon name="logo-instagram"></ion-icon></div></span>
+        <button class="social"><span><ion-icon name="logo-facebook"></ion-icon></button>
+        <button class="social"><span><ion-icon name="logo-twitter"></ion-icon></button>
+        <button class="social"><span><ion-icon name="logo-instagram"></ion-icon></button>
       </div>
 
       <div class="copyrights">
